@@ -44700,8 +44700,8 @@ object-assign
           required: !1,
           description: "",
           defaultValue: {
-            value: "React.createFactory(ToastMessageAnimated)",
-            computed: !0,
+            value: "props => <ToastMessageAnimated {...props} />",
+            computed: !1,
           },
           tags: {},
         },
@@ -45059,7 +45059,7 @@ object-assign
   ) {
     e.exports = {
       config: {
-        title: "React Toastr Style Guide",
+        title: "Bitjourney React Toastr Style Guide",
         highlightTheme: "base16-light",
         showCode: !0,
         showUsage: !0,
@@ -49789,7 +49789,9 @@ object-assign
         warning: "warning",
       },
       id: "toast-container",
-      toastMessageFactory: a.a.createFactory(s.default),
+      toastMessageFactory: function toastMessageFactory(e) {
+        return a.a.createElement(s.default, e)
+      },
       preventDuplicates: !0,
       newestOnTop: !0,
       onClick: o.a.noop,
