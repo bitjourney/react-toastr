@@ -46,7 +46,7 @@ export class ToastContainer extends React.PureComponent<Props> {
       warning: "warning",
     },
     id: "toast-container",
-    toastMessageFactory: React.createFactory(ToastMessageAnimated),
+    toastMessageFactory: props => <ToastMessageAnimated {...props} />,
     preventDuplicates: true,
     newestOnTop: true,
     onClick: _.noop,
