@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="3.0.1"></a>
+## [3.0.1](https://github.com/tomchentw/react-toastr/compare/v3.0.0...v3.0.1) (2020-10-26)
+
+
+### Bug Fixes
+
+* Avoid to use `React.createFactory` for React v17 ([6e3d10b](https://github.com/tomchentw/react-toastr/commit/6e3d10b))
+
+
+
 <a name="3.0.0"></a>
 # [3.0.0](https://github.com/tomchentw/react-toastr/compare/v2.9.5...v3.0.0) (2017-10-28)
 
