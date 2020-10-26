@@ -1,5 +1,5 @@
 {
-  "name": "react-toastr",
+  "name": "@bitjourney/react-toastr",
   "version": "3.0.0",
   "description": "React.js toastr component",
   "license": "MIT",
